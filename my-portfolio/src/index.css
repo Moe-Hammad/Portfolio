@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+
+.cardcontent {
+  background-color: #1f1f1f;
+  padding: 0px 100px 100px 100px;
+}

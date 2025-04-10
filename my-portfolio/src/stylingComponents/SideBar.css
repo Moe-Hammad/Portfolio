@@ -1,0 +1,30 @@
+.sidebar {
+  position: fixed;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #1f1f1f;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.sidebar li {
+  color: white;
+  margin: 15px 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  color: #64cfff;
+}
