@@ -1,13 +1,39 @@
 body {
-  margin: 50px;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  /* Anreihung */
+  display: block;
+  /* Anfangsrichtung? */
+  flex-direction: column-reverse;
+  /* Scroll beim betreten der Seite */
+  min-height: 150vh;
+  /* Background */
   background-color: #121212 !important;
+  /* Schrift */
   color: #ffffff !important;
 }
 
-.cardcontent {
+#root section {
+  position: relative; /* Changed from absolute to relative */
+  /* top right  under left */
+  margin: 20px 20% 20px 20%; /* Added to center horizontally and add spacing */
+  padding: 5px; /* innerhalb des Elements*/
   background-color: #1f1f1f;
-  padding: 0px 100px 100px 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px; /* Einheitlicher Abstand */
+}
+
+.summary h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  all: unset;
+  /* untereinander stehen */
+  display: block;
+  text-align: left;
 }

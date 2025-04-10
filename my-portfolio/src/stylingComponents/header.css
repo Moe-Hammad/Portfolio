@@ -1,0 +1,5 @@
+.top {
+  position: sticky;
+  height: 5px;
+  background: linear-gradient(141deg, cyan 0%, rebeccapurple 40%, deeppink 90%);
+}
