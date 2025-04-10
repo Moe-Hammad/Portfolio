@@ -1,10 +1,19 @@
+import { Card, CardImg } from 'react-bootstrap';
 import '/src/stylingComponents/header.css';
 
 export default function Header() {
     return (
         <><div className='top'></div>
             <div className='text'>
-                <h1>Cool header Color Line</h1>
+                <Card>
+                    <CardImg variant="top" src="https://picsum.photos/id/684/600/400" alt="Card image" />
+                    <Card.Body>
+                        <Card.Title>Card Title</Card.Title>
+                        <Card.Text>
+                            This is an example of a card with an image at the top.
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
             </div></>
     )
 }

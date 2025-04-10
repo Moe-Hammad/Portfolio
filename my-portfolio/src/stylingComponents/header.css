@@ -3,3 +3,8 @@
   height: 5px;
   background: linear-gradient(141deg, cyan 0%, rebeccapurple 40%, deeppink 90%);
 }
+
+.card-img-top {
+  width: 600px;
+  height: 400px;
+}
