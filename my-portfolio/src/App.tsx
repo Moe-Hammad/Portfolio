@@ -9,16 +9,21 @@ function App() {
   return (
     <>
       <NavbarComponent />
-      <Header></Header>
-      <section className='summary'>
-        <Summary></Summary>
-      </section>
-      <section className='summary'>
-        <Education></Education>
-      </section>
-      <section>
-        <Introduction />
-      </section >
+
+      <div className='centered-content'>
+        <section>
+          <Header></Header>
+        </section>
+        <section className='summary'>
+          <Summary></Summary>
+        </section>
+        <section className='summary'>
+          <Education></Education>
+        </section>
+        <section>
+          <Introduction />
+        </section >
+      </div>
     </>
   );
 }

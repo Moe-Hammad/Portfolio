@@ -3,7 +3,7 @@ import '/src/stylingComponents/header.css';
 
 export default function Header() {
     return (
-        <><div className='top'></div>
+        <>
             <div className='text'>
                 <Card>
                     <CardImg variant="top" src="https://picsum.photos/id/684/600/400" alt="Card image" />

@@ -1,14 +1,15 @@
-body {
-  /* Anreihung */
-  display: block;
-  /* Anfangsrichtung? */
-  flex-direction: column-reverse;
-  /* Scroll beim betreten der Seite */
-  min-height: 150vh;
-  /* Background */
-  background-color: #121212 !important;
-  /* Schrift */
-  color: #ffffff !important;
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  width: auto;
+  height: auto;
+}
+
+.centered-content {
+  position: relative;
+  margin: 20px 5%; /* Gleicher Abstand wie in #root section */
+  padding: 5px; /* Innenabstand */
+  background-color: inherit; /* Hintergrundfarbe übernehmen */
 }
 
 #root section {
@@ -36,4 +37,17 @@ p {
   /* untereinander stehen */
   display: block;
   text-align: left;
+}
+
+body {
+  /* Anreihung */
+  display: block;
+  /* Anfangsrichtung? */
+  flex-direction: column-reverse;
+  /* Scroll beim betreten der Seite */
+  min-height: 150vh;
+  /* Background */
+  background-color: #121212 !important;
+  /* Schrift */
+  color: #ffffff !important;
 }
