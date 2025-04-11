@@ -44,10 +44,15 @@ body {
   display: block;
   /* Anfangsrichtung? */
   flex-direction: column-reverse;
-  /* Scroll beim betreten der Seite */
-  min-height: 150vh;
   /* Background */
   background-color: #121212 !important;
   /* Schrift */
   color: #ffffff !important;
+}
+
+body .card {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+  margin: 0;
+  padding: 0px;
 }

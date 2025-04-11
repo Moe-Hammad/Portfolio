@@ -4,10 +4,8 @@
 }
 
 .card-body {
-  /* top right  under left */
   margin: 0;
-  background-color: #121212 !important;
-  color: #ffffff !important;
+  padding: 0px;
 }
 
 .card-img-top {
@@ -39,4 +37,34 @@
 .profile-container {
   margin-top: -100px; /* Verschiebt das Bild nach oben */
   padding: 0px 0 5px 0px; /* Fügt Abstand vom linken Rand hinzu */
+}
+
+.status {
+  display: flex; /* Aktiviert Flexbox */
+}
+
+.status span {
+  margin-bottom: 0; /* Entfernt den unteren Abstand */
+  animation: blink 2s linear infinite; /* Beibehaltung der Animation */
+}
+.status p {
+  margin-left: -11px; /* Entfernt unnötige Abstände */
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
 }
