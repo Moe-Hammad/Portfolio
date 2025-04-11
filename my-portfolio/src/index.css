@@ -48,6 +48,7 @@ body {
   background-color: #121212 !important;
   /* Schrift */
   color: #ffffff !important;
+  min-height: 100vh;
 }
 
 body .card {
