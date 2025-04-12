@@ -47,7 +47,7 @@ export default function Header() {
                                     <Button variant="success" href="https://www.xing.com/profile/Mohammad_Hammad068648/web_profiles">
                                         <FontAwesomeIcon icon={faXing} />
                                     </Button>
-                                    <Button variant="dark" href="https://www.xing.com/profile/Mohammad_Hammad068648/web_profiles">
+                                    <Button variant="dark" href="https://github.com/Moe-Hammad">
                                         <FontAwesomeIcon icon={faGithub} />
                                     </Button>
                                 </ButtonGroup>
