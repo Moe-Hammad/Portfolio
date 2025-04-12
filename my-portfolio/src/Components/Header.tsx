@@ -5,7 +5,7 @@ import {
     faCity,
     faDotCircle,
 } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin, faXing } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faXing } from "@fortawesome/free-brands-svg-icons";
 import "/src/stylingComponents/header.css";
 
 export default function Header() {
@@ -15,13 +15,13 @@ export default function Header() {
                 <Card>
                     <CardImg
                         variant="top"
-                        src="https://picsum.photos/id/684/600/400"
+                        src="./src/assets/Gr.svg"
                         alt="Card image"
                     />
                     <Card.Body>
                         <div className="profile-container">
                             <img
-                                src="https://picsum.photos/200" /* Beispielbild */
+                                src="./src/assets/mo_pic.jpg" /* Beispielbild */
                                 alt="Profile"
                                 className="rounded-image"
                             />
@@ -46,6 +46,9 @@ export default function Header() {
                                     </Button>
                                     <Button variant="success" href="https://www.xing.com/profile/Mohammad_Hammad068648/web_profiles">
                                         <FontAwesomeIcon icon={faXing} />
+                                    </Button>
+                                    <Button variant="dark" href="https://www.xing.com/profile/Mohammad_Hammad068648/web_profiles">
+                                        <FontAwesomeIcon icon={faGithub} />
                                     </Button>
                                 </ButtonGroup>
                             </div>
