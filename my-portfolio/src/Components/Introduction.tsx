@@ -3,10 +3,9 @@ export default function Introduction() {
         <div>
             <h2>Introduction</h2>
             <p>
-                Excepteur cupidatat dolore irure dolor cillum adipisicing commodo.
-                Ex ex cillum minim dolore eu ipsum qui velit consequat Lorem cupidatat incididunt.
-                Deserunt eu excepteur deserunt aliquip anim consectetur eu.
-                Qui duis anim veniam irure anim adipisicing. Sit non labore ad id nostrud nulla laborum esse.
+                Hello and welcome to my Portfolio.
+                My name is Momo, and I am a passionate developer with a keen interest in creating innovative and efficient solutions.
+                Explore my work and feel free to reach out!
             </p>
         </div>
     );
