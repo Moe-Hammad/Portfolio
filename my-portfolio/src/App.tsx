@@ -14,15 +14,16 @@ function App() {
         <section>
           <Header></Header>
         </section>
+        <section>
+          <Introduction />
+        </section >
         <section className='summary'>
           <Summary></Summary>
         </section>
         <section className='summary'>
           <Education></Education>
         </section>
-        <section>
-          <Introduction />
-        </section >
+
       </div>
     </>
   );

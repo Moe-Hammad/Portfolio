@@ -3,9 +3,10 @@ export default function Introduction() {
         <div>
             <h2>Introduction</h2>
             <p>
-                Hello and welcome to my Portfolio.
-                My name is Momo, and I am a passionate developer with a keen interest in creating innovative and efficient solutions.
-                Explore my work and feel free to reach out!
+                Hello and welcome to my portfolio! 👋🏻✨ <br />
+                My name is Mohammad, and I am a passionate developer 💻<br /> with a keen interest in learning new technologies 📚
+                and continuously improving my skills. 🚀<br />
+                Explore my work and feel free to reach out! 📩<br />
             </p>
         </div>
     );
