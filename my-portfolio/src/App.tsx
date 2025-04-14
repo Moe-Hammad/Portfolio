@@ -3,6 +3,7 @@ import Education from './Components/Education';
 import Header from './Components/Header';
 import Introduction from './Components/Introduction';
 import NavbarComponent from './Components/Navbar';
+import Skills from './Components/Skills';
 import Summary from './Components/Summary';
 
 function App() {
@@ -23,7 +24,9 @@ function App() {
         <section className='summary'>
           <Education></Education>
         </section>
-
+        <section className='summary'>
+          <Skills></Skills>
+        </section>
       </div>
     </>
   );
