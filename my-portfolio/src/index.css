@@ -57,3 +57,13 @@ body .card {
   margin: 0;
   padding: 0px;
 }
+
+li {
+  margin: 0;
+  padding: 0px;
+  color: #ffffff;
+}
+
+li::marker {
+  color: #07eaf1;
+}

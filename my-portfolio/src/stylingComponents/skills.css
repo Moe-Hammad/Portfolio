@@ -1,0 +1,11 @@
+.skillslist {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -10px;
+}
+
+.skillslist li {
+  color: white;
+  list-style-type: disc;
+  color: white;
+}

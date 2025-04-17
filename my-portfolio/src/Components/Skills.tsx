@@ -1,8 +1,10 @@
+import '/src/stylingComponents/skills.css';
 
 export default function Skills() {
     return (
         <>
-            <h2>Skills</h2><ul>
+            <h2>Skills</h2>
+            <ul className='skillslist'>
                 <li>
                     Typescript
                 </li>
