@@ -12,19 +12,19 @@ function App() {
       <NavbarComponent />
 
       <div className='centered-content'>
-        <section>
+        <section className='header'>
           <Header></Header>
         </section>
-        <section>
+        <section className='introduction'>
           <Introduction />
         </section >
         <section className='summary'>
           <Summary></Summary>
         </section>
-        <section className='summary'>
+        <section className='education'>
           <Education></Education>
         </section>
-        <section className='summary'>
+        <section className='skills'>
           <Skills></Skills>
         </section>
       </div>
