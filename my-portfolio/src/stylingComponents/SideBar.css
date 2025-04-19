@@ -7,6 +7,7 @@
   padding: 20px 30px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
 }
 
 .sidebar ul {
@@ -33,4 +34,19 @@
   position: sticky;
   height: 5px;
   background: linear-gradient(141deg, cyan 0%, rebeccapurple 40%, deeppink 90%);
+}
+
+.sidebar ul li {
+  list-style: none;
+}
+
+.sidebar ul li a, /* für echte a-Tags */
+.sidebar ul li span {
+  /* für react-scroll Links */
+  display: inline-block; /* oder block, falls du die ganze Zeile klickbar willst */
+  cursor: pointer;
+  width: 100%;
+  padding: 8px 12px;
+  color: blue;
+  text-decoration: none;
 }
