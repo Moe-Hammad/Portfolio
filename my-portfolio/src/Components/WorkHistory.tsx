@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function WorkHistory() {
     return (
-        <div>WorkHistory</div>
+        <h2>WorkHistory</h2>
     )
 }

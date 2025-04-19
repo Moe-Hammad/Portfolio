@@ -1,7 +1,10 @@
-import React from 'react'
 
 export default function Timeline() {
     return (
-        <div>Timeline</div>
+        <div>
+            <h2>Timeline</h2>
+            {/* Add a Timeline  */}
+
+        </div>
     )
 }
