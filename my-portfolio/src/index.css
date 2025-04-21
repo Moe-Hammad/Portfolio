@@ -17,15 +17,24 @@
   /* top right  under left */
   margin: 20px 20% 20px 20%; /* Added to center horizontally and add spacing */
   padding: 5px; /* innerhalb des Elements*/
-  background-color: #1f1f1f;
+  background-color: #121212;
 }
 
 h1 {
   text-align: center;
 }
 
+.fancy-underline {
+  background-image: linear-gradient(to right, #363534, #2e110e);
+  background-repeat: no-repeat;
+  background-size: 20% 3px;
+  background-position: 0 100%;
+  padding-bottom: 2px;
+}
+
 h2 {
   margin-bottom: 20px; /* Einheitlicher Abstand */
+  text-decoration: underline;
 }
 
 .summary h2 {

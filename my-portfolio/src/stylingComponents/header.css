@@ -34,6 +34,16 @@
   padding: 0px 0 5px 0px; /* Fügt Abstand vom linken Rand hinzu */
 }
 
+.header-container {
+  color: aquamarine;
+  background-color: #555555 !important;
+  padding: 0.2rem;
+
+  .card {
+    border-radius: 0;
+  }
+}
+
 .status {
   display: flex; /* Aktiviert Flexbox */
 }

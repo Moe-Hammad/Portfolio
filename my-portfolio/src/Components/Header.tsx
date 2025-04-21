@@ -11,7 +11,7 @@ import "/src/stylingComponents/header.css";
 export default function Header() {
     return (
         <>
-            <div className="text">
+            <div className="header-container">
                 <Card>
                     <CardImg
                         variant="top"
