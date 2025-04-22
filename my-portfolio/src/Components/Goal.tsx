@@ -1,9 +1,8 @@
-import React from 'react'
 
 export default function Goal() {
     return (
         <>
-            <h2 className='fancy-underline'>Goal</h2>
+            <h2>Goal</h2>
             <ul>
                 <li>
                     To debut as a Full-Stack Developer and contribute to impactful projects

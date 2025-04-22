@@ -2,6 +2,7 @@ import './App.css';
 import Education from './Components/Education';
 import Goal from './Components/Goal';
 import Header from './Components/Header';
+import Introduction from './Components/Introduction';
 import NavbarComponent from './Components/Navbar';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
@@ -13,31 +14,33 @@ function App() {
   return (
     <>
       <NavbarComponent />
-
-      <div className='centered-content'>
-        <section className='header'>
-          <Header></Header>
+      <div className="centered-content">
+        <section className="header">
+          <Header />
         </section>
-        <section className='education'>
-          <Education></Education>
+        <section className="header">
+          <Introduction />
         </section>
-        <section className='skills'>
-          <Skills></Skills>
+        <section className="education">
+          <Education />
         </section>
-        <section className='workhistory'>
-          <WorkHistory></WorkHistory>
+        <section className="skills">
+          <Skills />
         </section>
-        <section className='projects'>
-          <Projects></Projects>
+        <section className="workhistory">
+          <WorkHistory />
         </section>
-        <section className='timeline'>
-          <Timeline></Timeline>
+        <section className="projects">
+          <Projects />
         </section>
-        <section className='summary'>
-          <Summary></Summary>
+        <section className="timeline">
+          <Timeline />
         </section>
-        <section className='goal'>
-          <Goal></Goal>
+        <section className="summary">
+          <Summary />
+        </section>
+        <section className="goal">
+          <Goal />
         </section>
       </div>
     </>

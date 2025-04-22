@@ -24,17 +24,13 @@ h1 {
   text-align: center;
 }
 
-.fancy-underline {
-  background-image: linear-gradient(to right, #363534, #2e110e);
+h2 {
+  margin-bottom: 20px;
+  background-image: linear-gradient(to right, #034f52, #07eaf1);
   background-repeat: no-repeat;
   background-size: 20% 3px;
   background-position: 0 100%;
   padding-bottom: 2px;
-}
-
-h2 {
-  margin-bottom: 20px; /* Einheitlicher Abstand */
-  text-decoration: underline;
 }
 
 .summary h2 {

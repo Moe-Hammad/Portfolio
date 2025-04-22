@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 export default function NavbarComponent() {
     return (
         <>
-            <div className='top'></div>
+
             <div className="sidebar">
                 <ul>
                     <li><Link to="profile-container" smooth={false} >Introduction</Link></li>
