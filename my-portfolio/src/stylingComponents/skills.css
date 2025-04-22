@@ -1,11 +1,13 @@
 .skillslist {
-  display: flex;
-  justify-content: space-between;
-  margin-left: -10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 0;
+  gap: 10px;
+  margin-top: 15px;
 }
 
 .skillslist li {
   color: white;
   list-style-type: disc;
-  color: white;
+  text-align: start;
 }

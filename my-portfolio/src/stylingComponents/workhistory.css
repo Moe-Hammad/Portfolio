@@ -1,0 +1,17 @@
+.card-title {
+  text-align: center;
+  color: aqua;
+}
+
+.card {
+  border: 5px solid red;
+  background-color: blue;
+  width: 100%;
+  height: 500px;
+}
+
+.card-body {
+  text-align: left;
+  color: aqua;
+  margin: 0;
+}
