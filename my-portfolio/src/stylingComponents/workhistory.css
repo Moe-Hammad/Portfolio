@@ -1,17 +1,74 @@
-.card-title {
+h2 {
+  margin-bottom: 30px;
+}
+
+.skm {
+  background: linear-gradient(
+    90deg,
+    #1e1e2f 0%,
+    #2a2a40 35%,
+    #3b3b5c 65%,
+    #4a4a6e 100%
+  );
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skm:hover .work-details p strong {
+  transform: translateZ(20px);
+  transition: transform 0.5s ease-in-out;
+}
+.skm-background {
+  position: absolute;
+  top: 68%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-size: 250px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.05);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.skm-title {
   text-align: center;
   color: aqua;
+  font-style: italic;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-.card {
-  border: 5px solid red;
-  background-color: blue;
-  width: 100%;
-  height: 500px;
-}
-
-.card-body {
-  text-align: left;
+.skm-duration {
+  text-align: center;
   color: aqua;
-  margin: 0;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.work-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.work-details p {
+  font-size: 16px;
+  line-height: 1.5;
+  border-bottom: 1px solid #64cfff;
+  padding-bottom: 5px;
+}
+
+.work-details p strong {
+  color: #64cfff;
+}
+
+.skm-title,
+.skm-duration,
+.work-details {
+  position: relative;
+  z-index: 1;
 }

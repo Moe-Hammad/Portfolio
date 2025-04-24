@@ -72,3 +72,9 @@ li {
 li::marker {
   color: #07eaf1;
 }
+
+a {
+  color: rgb(255, 255, 255) !important;
+  font-style: italic;
+  text-decoration: none;
+}
